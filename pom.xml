@@ -22,13 +22,16 @@
        
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://34.238.255.177:8081/repositories/snapshots/</url>
+            <url>http://44.202.7.9:8081/repositories/snapshots/</url>
         </snapshotRepository>
 
        
-        <repository>
-            <id>nexus-releases</id>
-            <url>http://34.238.255.177:8081/repositories/releases/</url>
-        </repository>
+        <repositories>
+    <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+</repositories>
+
     </distributionManagement>
 </project>
